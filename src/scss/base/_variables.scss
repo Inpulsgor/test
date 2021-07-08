@@ -1,0 +1,33 @@
+/*
+* FONT
+*/
+
+$font-family-primary: "Nunito", sans-serif;
+$font-size: 14px;
+
+/*
+* BACKGROUND
+*/
+
+$background-gradient: radial-gradient(
+  ellipse at left bottom,
+  rgba(22, 24, 47, 1) 0%,
+  rgba(38, 20, 72, 0.9) 59%,
+  rgba(17, 27, 75, 0.9) 100%
+);
+
+/*
+* COLORS
+*/
+
+$main-bg: #1a255d;
+$color-red: #ff0000;
+$color-white: #fff;
+$side-bg: #68e2d5;
+
+/*
+* SHADOW
+*/
+
+$todo-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+$form-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);

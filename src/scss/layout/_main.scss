@@ -1,0 +1,35 @@
+.main {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	position: relative;
+
+	&__middle {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__left {
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 128px;
+		height: 270px;
+		text-align: center;
+		background-color: $side-bg;
+	}
+
+	&__right {
+		position: absolute;
+		right: 0;
+		top: 50%;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
