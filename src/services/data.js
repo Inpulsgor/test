@@ -8,27 +8,32 @@ const data = [
 	{	id: 0,
 		icon: email,
 		text: 'Sign in with email',
-		color: '#fff'
+		color: '#fff',
+		fontColor: ''
 	},
 	{	id: 1,
 		icon: google,
 		text: 'Sign in with Google',
-		color: '#e8473d'
+		color: '#e8473d',
+		fontColor: '#fff'
 	},
 	{	id: 2,
 		icon: facebook,
 		text: 'Sign in with Facebook',
-		color: '#405991'
+		color: '#405991',
+		fontColor: '#fff'
 	},
 	{	id: 3,
 		icon: twitter,
 		text: 'Sign in with Twitter',
-		color: '#69a9e6'
+		color: '#69a9e6',
+		fontColor: '#fff'
 	},
 	{	id: 4,
 		icon: github,
 		text: 'Sign in with Github',
-		color: '#636468'
+		color: '#636468',
+		fontColor: '#fff'
 	}
 ]
 

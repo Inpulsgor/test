@@ -8,16 +8,15 @@ const Home = () => {
 	return (
 		<>
 			<div className="main__middle">
-			<span>Welcome to</span>
-			<h2 className="main__title">JETROSPECTS</h2>
+				<span className="main__subtitle">Welcome to</span>
+				<h2 className="main__title">JETROSPECTS</h2>
 
-				{data && data.map((item) => <Button key={item.id} icon={item.icon} text={item.text} color={item.color}/>
-				)}
+				{data && data.map((item) => <Button key={item.id} icon={item.icon} text={item.text} color={item.color}/>)}
 			</div>
-			<div className="main__left">
+			<div className="sides main__left">
 				<Link to="/learn">Learn</Link>
 			</div>
-			<div className="main__right">
+			<div className="sides main__right">
 				<Link to="/register">Register</Link>
 			</div>
 		</>
