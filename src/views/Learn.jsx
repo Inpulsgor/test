@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 
 const Learn = () => {
 	return (
-		<div>Learn</div>
+		<>
+			<Link to="/">Go back</Link>
+		</>
 	)
 }
 

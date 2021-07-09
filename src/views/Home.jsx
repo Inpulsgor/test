@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { data, links } from '../services/data';
 import { Button, Links } from "../components/";
