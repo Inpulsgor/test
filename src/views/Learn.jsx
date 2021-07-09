@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Learn = () => {
 	return (
 		<>
-			<Link to="/">Go back</Link>
+			<Link className="back" to="/">Go back</Link>
 		</>
 	)
 }
