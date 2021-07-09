@@ -9,7 +9,7 @@ const data = [
 		icon: email,
 		text: 'Sign in with email',
 		color: '#fff',
-		fontColor: ''
+		fontColor: '#777777'
 	},
 	{	id: 1,
 		icon: google,
@@ -37,4 +37,18 @@ const data = [
 	}
 ]
 
-export default data;
+const links = [
+	{
+		class: 'left',
+		link: '/learn'
+	},
+	{
+		class: 'right',
+		link: '/register'
+	}
+]
+
+export {
+	data,
+	links
+};
