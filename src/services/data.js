@@ -41,12 +41,14 @@ const links = [
 	{
 		id: 0,
 		class: 'left',
-		link: '/learn'
+		link: '/learn',
+		text: 'Learn'
 	},
 	{
 		id: 1,
 		class: 'right',
-		link: '/register'
+		link: '/register',
+		text: 'Register'
 	}
 ]
 
