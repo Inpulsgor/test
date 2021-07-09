@@ -1,19 +1,14 @@
 import React, { Suspense } from "react";
 import { Route, Switch, Redirect } from 'react-router-dom';
-import { CommonLoading as Loader } from "react-loadingg";
 
 import Main from "./components/layout/Main";
-import { Home, Learn, Register} from './views/index'
+import { Loader } from "./components/";
+import { Home, Learn, Register} from './views/'
 
 const App = () => {
   return (
-	<Suspense 
-		fallback={
-			<Loader
-			color="orange"
-			size="large"
-			className="loader"
-			/>}>
+	<Suspense
+		fallback={<Loader />}>
 		<Main>
 			<Switch>
 				<Route path="/" exact component={Home} />

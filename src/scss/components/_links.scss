@@ -1,0 +1,21 @@
+.sides {
+	display: flex;
+	align-items: center;
+	border-radius: 50%;
+	background-color: $side-bg;
+	width: 270px;
+	height: 270px;
+	text-align: center;
+
+	&__left {
+		justify-content: right;
+	}
+
+	&__right {
+		justify-content: left;
+	}
+
+	&__link {
+		display: block;
+	}
+}

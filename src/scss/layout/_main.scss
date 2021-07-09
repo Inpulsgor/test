@@ -1,8 +1,6 @@
 .main {
-	display: flex;
 	height: 100%;
 	width: 100%;
-	position: relative;
 	text-align: center;
 
 	&::after,
@@ -15,7 +13,6 @@
 		height: 450px;
 		z-index: 1;
 		bottom: 50%;
-		// left: 50%;
 		transform: translateX(50%);
 		transform: translateY(50%);
 		left:0;
@@ -51,32 +48,25 @@
 		flex-direction: column;
 		z-index: 110;
 		position: relative;
+		flex-grow: 2;
+		order: 2;
+		max-width: 500px;
+		margin: 0 auto;
 	}
 
 	&__left {
-		left: -10%;
-		top: 50%;
+		order: 1;
 	}
 
 	&__right {
-		right: -10%;
-		top: 50%;
+		order: 3;
 	}
 
 	.container {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
+		display: grid;
+		grid-template-columns: auto 1fr auto;
+		grid-template-rows: auto;
+		height: 100%;
 		align-items: center;
 	}
-}
-
-.sides {
-	border-radius: 50%;
-	position: absolute;
-	background-color: $side-bg;
-	width: 270px;
-	height: 270px;
-	text-align: center;
-	transform: translateY(-50%);
 }

@@ -39,10 +39,12 @@ const data = [
 
 const links = [
 	{
+		id: 0,
 		class: 'left',
 		link: '/learn'
 	},
 	{
+		id: 1,
 		class: 'right',
 		link: '/register'
 	}

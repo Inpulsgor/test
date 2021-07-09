@@ -1,24 +1,17 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import React from 'react'
 
 import { data, links } from '../services/data';
-import { Button, Link } from "../components/Button";
+import { Button, Links } from "../components/";
 
 const Home = () => {
 	return (
 		<>
+			{/* <span className="main__subtitle">Welcome to</span> */}
+			{/* <h2 className="main__title">JETROSPECTS</h2> */}
 			<div className="main__middle">
-				{/* <span className="main__subtitle">Welcome to</span> */}
-				{/* <h2 className="main__title">JETROSPECTS</h2> */}
-
 				{data && data.map((item) => <Button key={item.id} icon={item.icon} text={item.text} color={item.color} fontColor={item.fontColor}/>)}
 			</div>
-			<div className="sides main__left">
-				<Link to="/learn">Learn</Link>
-			</div>
-			<div className="sides main__right">
-				<Link to="/register">Register</Link>
-			</div>
+			{links && links.map((link) => <Links key={link.id} nameClass={link.class} link={link.link}/>)}
 		</>
 	)
 }

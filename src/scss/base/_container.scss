@@ -1,25 +1,25 @@
 .container {
   margin: 0 auto;
-  padding: 0 50px;
   max-width: 100%;
+  //   padding: 0 50px;
 
-  @include for-phone-xs {
-    width: 100%;
-  }
+//   @include for-phone-xs {
+//     width: 100%;
+//   }
 
-  @include for-phone-sm {
-    width: 540px;
-  }
+//   @include for-phone-sm {
+//     width: 540px;
+//   }
 
-  @include for-tablet-md {
-    width: 720px;
-  }
+//   @include for-tablet-md {
+//     width: 720px;
+//   }
 
-  @include for-desktop-lg {
-    width: 960px;
-  }
+//   @include for-desktop-lg {
+//     width: 960px;
+//   }
 
-  @include for-desktop-xl {
-    width: 1140px;
-  }
+//   @include for-desktop-xl {
+//     width: 1140px;
+//   }
 }
