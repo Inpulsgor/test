@@ -29,7 +29,7 @@
 
 	&__heading {
 		position: absolute;
-		top: 30%;
+		top: 29%;
 		left: 50%;
 		transform: translateX(-50%);
 		z-index: 10;
@@ -37,16 +37,14 @@
 
 	&__title {
 		color: $color-white;
-		margin-bottom: 60px;
-		font-weight: 300;
 		font-size: 52px;
 	}
 
 	&__subtitle {
 		color: $color-white;
-		margin-bottom: 26px;
 		font-weight: 600;
 		font-size: 22px;
+		top: 10px;
 	}
 
 	&__middle {

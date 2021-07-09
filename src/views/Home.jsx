@@ -14,6 +14,7 @@ const Home = () => {
 				{data && data.map((item) => (
 					<Button
 						key={item.id}
+						url={item.url}
 						icon={item.icon}
 						text={item.text}
 						color={item.color}

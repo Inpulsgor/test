@@ -9,31 +9,36 @@ const data = [
 		icon: email,
 		text: 'Sign in with email',
 		color: '#fff',
-		fontColor: '#777777'
+		fontColor: '#777777',
+		url: '/'
 	},
 	{	id: 1,
 		icon: google,
 		text: 'Sign in with Google',
 		color: '#e8473d',
-		fontColor: '#fff'
+		fontColor: '#fff',
+		url: '/'
 	},
 	{	id: 2,
 		icon: facebook,
 		text: 'Sign in with Facebook',
 		color: '#405991',
-		fontColor: '#fff'
+		fontColor: '#fff',
+		url: '/'
 	},
 	{	id: 3,
 		icon: twitter,
 		text: 'Sign in with Twitter',
 		color: '#69a9e6',
-		fontColor: '#fff'
+		fontColor: '#fff',
+		url: '/'
 	},
 	{	id: 4,
 		icon: github,
 		text: 'Sign in with Github',
 		color: '#636468',
-		fontColor: '#fff'
+		fontColor: '#fff',
+		url: '/'
 	}
 ]
 
